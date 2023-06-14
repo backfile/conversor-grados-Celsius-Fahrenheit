@@ -49,3 +49,31 @@ main {
   color: #333;
   margin-bottom: 20px;
 }
+
+@media (max-width: 1250px) {
+  #input{
+    width: 90%;
+    margin: auto;
+  }
+  #btn {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .main-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .resultado{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    width: 99%;
+  }
+  .title{
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 17px;
+  }
+}
