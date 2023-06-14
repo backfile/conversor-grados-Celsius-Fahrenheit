@@ -7,5 +7,12 @@ btn.addEventListener("click", transformar);
 function transformar() {
   let numero = Number(input.value);
   const result = (9 / 5) * numero + 32;
-  resultado.innerHTML = `${input.value} grados Celsius equivalen a ${result} Fahrenheit`;
+  console.log(result)
+  if (isNaN(result)){
+    resultado.innerHTML = `⚠ Solo se puede utilizar números`;
+  }else{
+    resultado.innerHTML = `${input.value} grados Celsius equivalen a ${result} Fahrenheit`;
+  }
+  
+  
 }
